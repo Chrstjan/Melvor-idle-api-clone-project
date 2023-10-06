@@ -1,0 +1,121 @@
+{
+  "woodLogs": [
+    {
+      "name": "Normal Log",
+      "description": "A standart log obtained from chopping normal trees.",
+      "type": "Resource",
+      "rarity": "Common",
+      "value": 1,
+      "weight": 1,
+      "skillRequired": "Woodcutting",
+      "levelRequired": 1,
+      "cutTime": 3,
+      "xp": 10,
+      "stackable": "true"
+    },
+    {
+      "name": "Oak Log",
+      "description": "An Oak log obtained from chopping Oak trees.",
+      "type": "Resource",
+      "rarity": "Common",
+      "value": 5,
+      "weight": 1,
+      "skillRequired": "Woodcutting",
+      "levelRequired": 10,
+      "cutTime": 4,
+      "xp": 15,
+      "stackable": "true"
+    },
+    {
+      "name": "Willow Log",
+      "description": "A Willow log obtained from chopping willow trees.",
+      "type": "Resource",
+      "rarity": "Common",
+      "value": 10,
+      "weight": 1,
+      "skillRequired": "Woodcutting",
+      "levelRequired": 25,
+      "cutTime": 5,
+      "xp": 22,
+      "stackable": "true"
+    },
+    {
+      "name": "Teak Log",
+      "description": "A Teak log obtained from chopping Teak trees.",
+      "type": "Resource",
+      "rarity": "Common",
+      "value": 20,
+      "weight": 1,
+      "skillRequired": "Woodcutting",
+      "levelRequired": 35,
+      "cutTime": 6,
+      "xp": 30,
+      "stackable": "true"
+    },
+    {
+      "name": "Maple Log",
+      "description": "A Maple log obtained from chopping Maple trees.",
+      "type": "Resource",
+      "rarity": "Common",
+      "value": 35,
+      "weight": 1,
+      "skillRequired": "Woodcutting",
+      "levelRequired": 45,
+      "cutTime": 8,
+      "xp": 40,
+      "stackable": "true"
+    },
+    {
+      "name": "Mahogany Log",
+      "description": "A Mahogany log obtained from chopping Mahogany trees.",
+      "type": "Resource",
+      "rarity": "Common",
+      "value": 50,
+      "weight": 1,
+      "skillRequired": "Woodcutting",
+      "levelRequired": 55,
+      "cutTime": 10,
+      "xp": 60,
+      "stackable": "true"
+    },
+    {
+      "name": "Yew Log",
+      "description": "A Yew log obtained from chopping Yew trees.",
+      "type": "Resource",
+      "rarity": "Common",
+      "value": 75,
+      "weight": 1,
+      "skillRequired": "Woodcutting",
+      "levelRequired": 60,
+      "cutTime": 12,
+      "xp": 80,
+      "stackable": "true"
+    },
+    {
+      "name": "Magic Log",
+      "description": "A Magic log obtained from chopping Magic trees.",
+      "type": "Resource",
+      "rarity": "Common",
+      "value": 400,
+      "weight": 1,
+      "skillRequired": "Woodcutting",
+      "levelRequired": 75,
+      "cutTime": 20,
+      "xp": 100,
+      "stackable": "true"
+    },
+    {
+      "name": "Redwood Log",
+      "description": "A Redwood log obtained from chopping redwood trees.",
+      "type": "Resource",
+      "rarity": "Common",
+      "value": 25,
+      "weight": 1,
+      "skillRequired": "Woodcutting",
+      "levelRequired": 90,
+      "cutTime": 15,
+      "xp": 180,
+      "stackable": "true"
+    }
+  ]
+}
