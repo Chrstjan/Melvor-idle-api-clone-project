@@ -1,5 +1,5 @@
 {
-  "Shallow Shores": [
+  "Shallow_Shores": [
     {
       "name": "Raw Shrimp",
       "description": "A raw shrimp. You can cook it to make a shrimp",
@@ -40,7 +40,7 @@
       "stackable": "true"
     }
   ],
-  "Shrapnel River": [
+  "Shrapnel_River": [
     {
       "name": "Raw Sardine",
       "description": "A raw sardine. You can cook it to make a sardine",
@@ -81,7 +81,7 @@
       "stackable": "true"
     }
   ],
-  "Trench of Despair": [
+  "Trench_of_Despair": [
     {
       "name": "Raw Blowfish",
       "description": "A raw blowfish. You can cook it to make a blowfish",
@@ -135,7 +135,7 @@
       "stackable": "true"
     }
   ],
-  "Lemvor Pier": [
+  "Lemvor_Pier": [
     {
       "name": "Raw Trout",
       "description": "A raw trout. You can cook it to make a trout",
@@ -176,7 +176,7 @@
       "stackable": "true"
     }
   ],
-  "Open Waters": [
+  "Open_Waters": [
     {
       "name": "Raw Swordfish",
       "description": "A raw swordfish. You can cook it to make a swordfish",
@@ -204,7 +204,7 @@
       "stackable": "true"
     }
   ],
-  "Barren Ocean": [
+  "Barren_Ocean": [
     {
       "name": "Raw Shark",
       "description": "A raw shark. You can cook it to make a shark",
