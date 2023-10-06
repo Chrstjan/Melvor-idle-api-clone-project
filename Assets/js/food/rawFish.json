@@ -1,0 +1,235 @@
+{
+  "Shallow Shores": [
+    {
+      "name": "Raw Shrimp",
+      "description": "A raw shrimp. You can cook it to make a shrimp",
+      "type": "Raw Fish",
+      "rarity": "Common",
+      "value": 1,
+      "weight": 1,
+      "skillRequired": "Fishing",
+      "levelRequired": 1,
+      "fishingTime": 6,
+      "xp": 5,
+      "stackable": "true"
+    },
+    {
+      "name": "Raw Lobster",
+      "description": "A raw lobster. You can cook it to make a lobster",
+      "type": "Raw Fish",
+      "rarity": "Common",
+      "value": 65,
+      "weight": 1,
+      "skillRequired": "Fishing",
+      "levelRequired": 40,
+      "fishingTime": 8,
+      "xp": 50,
+      "stackable": "true"
+    },
+    {
+      "name": "Raw Crab",
+      "description": "A raw crab. You can cook it to make a crab",
+      "type": "Raw Fish",
+      "rarity": "Common",
+      "value": 135,
+      "weight": 1,
+      "skillRequired": "Fishing",
+      "levelRequired": 60,
+      "fishingTime": 8.5,
+      "xp": 120,
+      "stackable": "true"
+    }
+  ],
+  "Shrapnel River": [
+    {
+      "name": "Raw Sardine",
+      "description": "A raw sardine. You can cook it to make a sardine",
+      "type": "Raw Fish",
+      "rarity": "Common",
+      "value": 3,
+      "weight": 1,
+      "skillRequired": "Fishing",
+      "levelRequired": 5,
+      "fishingTime": 6,
+      "xp": 10,
+      "stackable": "true"
+    },
+    {
+      "name": "Raw Herring",
+      "description": "A raw herring. You can cook it to make a herring",
+      "type": "Raw Fish",
+      "rarity": "Common",
+      "value": 8,
+      "weight": 1,
+      "skillRequired": "Fishing",
+      "levelRequired": 10,
+      "fishingTime": 6,
+      "xp": 15,
+      "stackable": "true"
+    },
+    {
+      "name": "Raw Carp",
+      "description": "A raw carp. You can cook it to make a carp",
+      "type": "Raw Fish",
+      "rarity": "Common",
+      "value": 190,
+      "weight": 1,
+      "skillRequired": "Fishing",
+      "levelRequired": 65,
+      "fishingTime": 10.5,
+      "xp": 130,
+      "stackable": "true"
+    }
+  ],
+  "Trench of Despair": [
+    {
+      "name": "Raw Blowfish",
+      "description": "A raw blowfish. You can cook it to make a blowfish",
+      "type": "Raw Fish",
+      "rarity": "Common",
+      "value": 5,
+      "weight": 1,
+      "skillRequired": "Fishing",
+      "levelRequired": 8,
+      "fishingTime": 5.5,
+      "xp": 12,
+      "stackable": "true"
+    },
+    {
+      "name": "Raw Poison Fish",
+      "description": "A raw poison fish. You can cook it to make a poison fish",
+      "type": "Raw Fish",
+      "rarity": "Common",
+      "value": 40,
+      "weight": 1,
+      "skillRequired": "Fishing",
+      "levelRequired": 30,
+      "fishingTime": 6.5,
+      "xp": 25,
+      "stackable": "true"
+    },
+    {
+      "name": "Raw Anglerfish",
+      "description": "A raw anglerfish. You can cook it to make a anglerfish",
+      "type": "Raw Fish",
+      "rarity": "Common",
+      "value": 50,
+      "weight": 1,
+      "skillRequired": "Fishing",
+      "levelRequired": 50,
+      "fishingTime": 8.5,
+      "xp": 100,
+      "stackable": "true"
+    },
+    {
+      "name": "Raw Cave Fish",
+      "description": "A raw cave fish. You can cook it to make a cave fish",
+      "type": "Raw Fish",
+      "rarity": "Common",
+      "value": 215,
+      "weight": 1,
+      "skillRequired": "Fishing",
+      "levelRequired": 75,
+      "fishingTime": 11.5,
+      "xp": 300,
+      "stackable": "true"
+    }
+  ],
+  "Lemvor Pier": [
+    {
+      "name": "Raw Trout",
+      "description": "A raw trout. You can cook it to make a trout",
+      "type": "Raw Fish",
+      "rarity": "Common",
+      "value": 16,
+      "weight": 1,
+      "skillRequired": "Fishing",
+      "levelRequired": 20,
+      "fishingTime": 7,
+      "xp": 20,
+      "stackable": "true"
+    },
+    {
+      "name": "Raw Salmon",
+      "description": "A raw salmon. You can cook it to make a salmon",
+      "type": "Raw Fish",
+      "rarity": "Common",
+      "value": 35,
+      "weight": 1,
+      "skillRequired": "Fishing",
+      "levelRequired": 35,
+      "fishingTime": 7,
+      "xp": 40,
+      "stackable": "true"
+    },
+    {
+      "name": "Raw Fanfish",
+      "description": "A raw fanfish. You can cook it to make a fanfish",
+      "type": "Raw Fish",
+      "rarity": "Common",
+      "value": 120,
+      "weight": 1,
+      "skillRequired": "Fishing",
+      "levelRequired": 55,
+      "fishingTime": 7,
+      "xp": 120,
+      "stackable": "true"
+    }
+  ],
+  "Open Waters": [
+    {
+      "name": "Raw Swordfish",
+      "description": "A raw swordfish. You can cook it to make a swordfish",
+      "type": "Raw Fish",
+      "rarity": "Common",
+      "value": 80,
+      "weight": 1,
+      "skillRequired": "Fishing",
+      "levelRequired": 50,
+      "fishingTime": 8.5,
+      "xp": 80,
+      "stackable": "true"
+    },
+    {
+      "name": "Raw Manta Ray",
+      "description": "A raw manta ray. You can cook it to make a manta ray",
+      "type": "Raw Fish",
+      "rarity": "Common",
+      "value": 650,
+      "weight": 1,
+      "skillRequired": "Fishing",
+      "levelRequired": 85,
+      "fishingTime": 17,
+      "xp": 495,
+      "stackable": "true"
+    }
+  ],
+  "Barren Ocean": [
+    {
+      "name": "Raw Shark",
+      "description": "A raw shark. You can cook it to make a shark",
+      "type": "Raw Fish",
+      "rarity": "Common",
+      "value": 270,
+      "weight": 1,
+      "skillRequired": "Fishing",
+      "levelRequired": 70,
+      "fishingTime": 11,
+      "xp": 150,
+      "stackable": "true"
+    },
+    {
+      "name": "Raw Whale",
+      "description": "A raw whale. You can cook it to make a whale",
+      "type": "Raw Fish",
+      "rarity": "Common",
+      "value": 750,
+      "weight": 1,
+      "skillRequired": "Fishing",
+      "levelRequired": 95,
+      "fishingTime": 17.5,
+      "xp": 575,
+      "stackable": "true"
+    }
+  ]
+}
