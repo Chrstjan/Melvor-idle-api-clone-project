@@ -42,7 +42,7 @@ app.get("/woodLogs", (req, res) => {
 //when visiting localhost:8000/rawFish the different raw fish & their location data shows
 app.get("/rawFish", (req, res) => {
   //This combines all the data & shows the location
-  const raw_FishData = {
+  const combinedRawFishData = {
     Shallow_Shores: rawFishData.Shallow_Shores,
     Shrapnel_River: rawFishData.Shrapnel_River,
     Trench_of_Despair: rawFishData.Trench_of_Despair,
@@ -51,7 +51,7 @@ app.get("/rawFish", (req, res) => {
     Barren_Ocean: rawFishData.Barren_Ocean,
   };
 
-  res.json(raw_FishData);
+  res.json(combinedRawFishData);
   //This combines the data but dosen't show the location
   /*const combinedRawFishData = [
     ...rawFishData.Shallow_Shores,
