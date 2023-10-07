@@ -1,4 +1,4 @@
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 const express = require("express");
 const fs = require("fs");
 const path = require("path");
@@ -65,6 +65,78 @@ app.get("/rawFish", (req, res) => {
 
   res.json(combinedRawFishData);
   */
+});
+
+//Endpoint to get the data from the Shallow Shores Array
+app.get("/rawFish/:Shallow_Shores", async (req, res) => {
+  const { Shallow_Shores } = req.params;
+
+  //Checking if the requested array name exists in the data object (rawFish.json)
+  if (rawFishData[Shallow_Shores]) {
+    res.json(rawFishData[Shallow_Shores]);
+  } else {
+    res.status(404).json({ error: "Array not found" });
+  }
+});
+
+//Endpoint to get the data from the Shrapnel River Array
+app.get("/rawFish/:Shrapnel_River", async (req, res) => {
+  const { Shrapnel_River } = req.params;
+
+  //Checking if the requested array name exists in the data object (rawFish.json)
+  if (rawFishData[Shrapnel_River]) {
+    res.json(rawFishData[Shrapnel_River]);
+  } else {
+    res.status(404).json({ error: "Array not found" });
+  }
+});
+
+//Endpoint to get the data from the Trench_of_Despair Array
+app.get("/rawFish/:Trench_of_Despair", async (req, res) => {
+  const { Trench_of_Despair } = req.params;
+
+  //Checking if the requested array name exists in the data object (rawFish.json)
+  if (rawFishData[Trench_of_Despair]) {
+    res.json(rawFishData[Trench_of_Despair]);
+  } else {
+    res.status(404).json({ error: "Array not found" });
+  }
+});
+
+//Endpoint to get the data from the Lemvor_Pier Array
+app.get("/rawFish/:Lemvor_Pier", async (req, res) => {
+  const { Lemvor_Pier } = req.params;
+
+  //Checking if the requested array name exists in the data object (rawFish.json)
+  if (rawFishData[Lemvor_Pier]) {
+    res.json(rawFishData[Lemvor_Pier]);
+  } else {
+    res.status(404).json({ error: "Array not found" });
+  }
+});
+
+//Endpoint to get the data from the Open_Waters Array
+app.get("/rawFish/:Open_Waters", async (req, res) => {
+  const { Open_Waters } = req.params;
+
+  //Checking if the requested array name exists in the data object (rawFish.json)
+  if (rawFishData[Open_Waters]) {
+    res.json(rawFishData[Open_Waters]);
+  } else {
+    res.status(404).json({ error: "Array not found" });
+  }
+});
+
+//Endpoint to get the data from the Barren_Ocean Array
+app.get("rawFish/:Barren_Ocean", async (req, res) => {
+  const { Barren_Ocean } = req.params;
+
+  //Checking if the requested array name exists in the data object (rawFish.json)
+  if (rawFishData[Barren_Ocean]) {
+    res.json(rawFishData[Barren_Ocean]);
+  } else {
+    res.status(404).json({ error: "Array not found" });
+  }
 });
 
 app.listen(PORT, () => console.log(`Server running on PORT ${PORT}`));

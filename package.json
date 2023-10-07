@@ -1,7 +1,7 @@
 {
   "name": "melvor-idle-api-clone-project",
   "version": "1.0.0",
-  "description": "A Html Boilerplate",
+  "description": "A Melvor Idle API Clone",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
