@@ -2,9 +2,6 @@ const PORT = process.env.PORT || 8000;
 const express = require("express");
 const fs = require("fs");
 const path = require("path");
-//These two arent used (yet!)
-const axios = require("axios");
-const cheerio = require("cheerio");
 
 const app = express();
 
